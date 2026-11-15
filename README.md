@@ -92,4 +92,4 @@ AstrBot 内置的「现实世界时间感知」只注入**当前时间**，不�
 
 ## 致谢
 
-本插件由 hdhyhjfhjd 主导设计与维护，开发过程中使用 [Doubao Work](https://www.doubao.com)（豆包 AI 助手）进行代码协作与调试。
+本插件由 hdhyhjfhjd 主导设计与维护，代码由 Doubao Seed 2.1 Lite（豆包大模型）协助编写与调试。
