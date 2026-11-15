@@ -1,0 +1,9 @@
+name: astrbot_plugin_time_gap_sense
+display_name: 时间流逝感知
+short_desc: 注入距上次发言的时间间隔，让角色状态随现实时间自然演变
+desc: 注入距上次发言的时间间隔，让状态随时间自然演变
+author: hdhyhjfhjd
+version: 1.0.3
+repo: https://github.com/hdhyhjfhjd/astrbot_plugin_time_gap_sense
+license: MIT
+astrbot_version: ">=4.0.0"

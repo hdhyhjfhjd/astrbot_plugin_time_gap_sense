@@ -1,0 +1,40 @@
+{
+  "enable": {
+    "type": "bool",
+    "title": "启用注入",
+    "default": true,
+    "description": "是否注入时间间隔上下文"
+  },
+  "gap_threshold_minutes": {
+    "type": "int",
+    "title": "长间隔阈值(分钟)",
+    "default": 10,
+    "description": "间隔大于该值时注入演变指令"
+  },
+  "recent_count": {
+    "type": "int",
+    "title": "记录轮数",
+    "default": 3,
+    "description": "保留最近几条发言做锚点，推荐3-10"
+  },
+  "unlock_recent_count": {
+    "type": "bool",
+    "title": "解除轮数上限",
+    "default": false,
+    "description": "允许记录轮数超过10，非必要勿开"
+  },
+  "inject_target": {
+    "type": "string",
+    "title": "注入位置",
+    "default": "tail",
+    "options": ["system", "tail"],
+    "labels": ["头部 system", "尾部 tail"],
+    "description": "动态内容放尾部利于缓存命中"
+  },
+  "timezone": {
+    "type": "string",
+    "title": "时区",
+    "default": "",
+    "description": "IANA时区，如Asia/Shanghai；留空跟随系统"
+  }
+}
